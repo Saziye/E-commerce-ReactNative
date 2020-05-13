@@ -7,6 +7,8 @@ import Navigation from './src/screens'
 import {images} from './src/constants/images';
 import {cacheImages} from './src/utils/cacheImages';
 
+import {theme} from './src/constants/theme';
+
 export default class App extends React.Component {
   state = {
     isReady: false,
@@ -33,7 +35,7 @@ export default class App extends React.Component {
       )
     }
     return (
-      <UtilityThemeProvider>
+      <UtilityThemeProvider theme={theme}>
         <Navigation />
       </UtilityThemeProvider>
     );

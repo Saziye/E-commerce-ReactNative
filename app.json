@@ -23,6 +23,12 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "extra": {
+      "googleAppId": {
+        "ios": "714759581584-che9aij0eunemgr65e962nh53rov3n68.apps.googleusercontent.com",
+        "android": "714759581584-2ktpirn31ee5e9gh3afkrr97kpjs6p8a.apps.googleusercontent.com"
+      }
     }
   }
 }

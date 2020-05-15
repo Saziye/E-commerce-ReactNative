@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\Saziye\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add expo-asset@~8.1.5
+  C:\Program Files\nodejs\node.exe C:\Users\Saziye\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add expo-google-app-auth
 
 PATH: 
   C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\sql\Yeni klasör\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\sql\Yeni klasör\120\Tools\Binn\ManagementStudio\;C:\sql\Yeni klasör\120\DTS\Binn\;C:\Program Files\dotnet\;C:\Users\Saziye\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Git\cmd;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\xampp\mysql\bin;C:\Users\Saziye\AppData\Local\Microsoft\WindowsApps;C:\Users\Saziye\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Saziye\AppData\Roaming\npm;C:\Users\Saziye\AppData\Local\Android\Sdk\platform-tools;C:\Users\Saziye\AppData\Roaming\Composer\vendor\bin;
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Users\Saziye\Desktop\React\new-store\node_modules\file-uri-to-path\test'
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Saziye\Desktop\E-commerce-ReactNative\node_modules\@react-native-community\cli-tools\node_modules\mime'
 
 npm manifest: 
   {
@@ -27,7 +27,8 @@ npm manifest:
       "eject": "expo eject"
     },
     "dependencies": {
-      "expo": "~37.0.3",
+      "@expo/vector-icons": "^10.2.0",
+      "expo": "^37.0.10",
       "react": "~16.9.0",
       "react-dom": "~16.9.0",
       "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",

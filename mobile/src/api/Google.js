@@ -1,5 +1,5 @@
-import  Constants from 'expo-constants';
-import * as Google from 'expo-google-app-auth';
+import  {Constants,Google} from 'expo';
+//import * as Google from 'expo-google-app-auth';
 
 const scopes = ['profile', 'email'];
 
